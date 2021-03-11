@@ -55,89 +55,115 @@ table {
 
 /* ---------- Hello, my name is Riley Cameron and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing March 2021 ------------ */
 
-html, body {
+ html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/lines_bg.jpg) 
       center center fixed no-repeat;
     background-size: cover;
 	
-}
+    }
 
-.center {
-    width: 800px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+.intro {
 	text-align: center;
-	border: 4px dashed white;
-}
+    margin: 40px;
+    }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
-	text-align: center;
-}
+    margin: 5px;
+    position: fixed;
+    top: 0px;
+    left: -2px;
+    z-index: 3;
+    max-width: 100%;
+    height: auto;
+    }
+
+#logobackground {
+    margin: 5px;
+    position: fixed;
+    top: 3px;
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
+    }
 
 h1 {
-	font-family: oswald, sans-serif;
-    font-weight: 400;
+	font-family: louvette-text, serif;
+    font-weight: 600;
     font-style: normal;
     font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
-}
+    color: #b45743;
+    }
 
 h2 {
-	font-family: oswald, sans-serif;
-    font-weight: 400;
+	font-family: louvette-text, serif;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #b45743;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
-}
-
-p {
-	font-family: oswald, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
-}
-    
-nav{
-    font-family: oswald;
-    font-size: 1.2em;
-    width: 400px;
-    margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
-    text-align: center;
-    margin-top: 2em;
-} 
-
-nav li{
-    display: inline
-    }
-
-nav a{
-    display: inline-block;
-    padding: 10px;
     }
 
 a{
-    color: #444;
+    font-family: louvette-text;
+    font-size: 1.5em;
+    width: 400px;
+    margin: 0 auto;
+    color: #b45743;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 100;
+    padding: 10px;
     }
 
 a:hover{
-    color: black;
-    background: pink;
+    color: white;
+    background: #b45743;
     }
+
+
+div.LinkedIn{
+    transform: rotate(-10deg);
+    position: fixed;
+    top: 263px;
+    left: 646px; 
+    }
+
+div.Email{
+    transform: rotate(-24deg);
+    position: fixed;
+    top: 626px;
+    left: 674px;
+    }
+        
+div.Portfolio{
+    position:fixed;
+    top:398px;
+    left:829px; 
+    }
+
+#megraphic {
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    }
+
+#duckgraphic {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 80px;
+    bottom: 150px;
+        
+}
+
+
+
