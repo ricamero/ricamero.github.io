@@ -63,39 +63,22 @@ table {
   background: url(images/lines_bg.jpg) 
       center center fixed no-repeat;
     background-size: cover;
-	
-    }
+	}
 
 .intro {
 	text-align: center;
     margin: 40px;
-    }
-
-   
-#logo {
-    margin: 5px;
-    position: fixed;
-    top: 0px;
-    left: -2px;
-    z-index: 3;
-    max-width: 100%;
-    height: auto;
-    }
-
-#logobackground {
-    margin: 5px;
-    position: fixed;
-    top: 3px;
-    z-index: 1;
-    max-width: 100%;
-    height: auto;
+    top: 2%;
+    left: 30%;
+    bottom: auto;
+    right: auto;
     }
 
 h1 {
 	font-family: louvette-text, serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 2em;
+    font-size: 2.7vw;
     margin: 0px auto 10px auto;
     color: #b45743;
     }
@@ -104,16 +87,34 @@ h2 {
 	font-family: louvette-text, serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     line-height: 1.4;
     color: #b45743;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
     }
+   
+#logo {
+    position: fixed;
+    top: 2%;
+    left: 0%;
+    width: 8%;
+    height: auto;
+    z-index: 3;
+    }
+
+#logobackground {
+    position: fixed;
+    max-width: 105px;
+    height: 100%;
+    margin: 5px;
+    top: 3px;
+    z-index: 2;
+    }
 
 a{
     font-family: louvette-text;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     width: 400px;
     margin: 0 auto;
     color: #b45743;
@@ -131,39 +132,55 @@ a:hover{
 div.LinkedIn{
     transform: rotate(-10deg);
     position: fixed;
-    top: 263px;
-    left: 646px; 
+    max-width: 100%;
+    height: auto;
+    top: 30.5%;
+    left: 45.5%;
+    bottom: auto;
+    right: auto;
     }
 
 div.Email{
     transform: rotate(-24deg);
     position: fixed;
-    top: 626px;
-    left: 674px;
+    max-width: 100%;
+    height: auto;
+    top: 79.2%;
+    left: 47%;
+    bottom: auto;
+    right: auto;
     }
         
-div.Portfolio{
-    position:fixed;
-    top:398px;
-    left:829px; 
+div.Work{
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+    top: 48.4%;
+    left: 58%;
+    bottom: auto;
+    right: auto;
     }
 
 #megraphic {
-    
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+    position: fixed;
+    max-width: 22%;
+    height: auto;
+    bottom: -1%;
+    left: 0%;
+    top: auto;
+    right: auto;
     z-index: 2;
     }
 
 #duckgraphic {
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    right: 80px;
-    bottom: 150px;
-        
-}
+    position: fixed;
+    max-width: 17%;
+    height:auto;
+    right: 5%;
+    bottom: 15%;
+    left: auto;
+    top: auto;
+    }
 
 
 
