@@ -60,18 +60,16 @@ table {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/lines_bg.jpg) 
+  background: url(images/flowers_bg.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	}
 
 .intro {
 	text-align: center;
-    margin: 40px;
-    top: 2%;
-    left: 30%;
-    bottom: auto;
-    right: auto;
+    position: fixed;
+    top: 6%;
+    left: 10%;
     }
 
 h1 {
@@ -80,7 +78,7 @@ h1 {
     font-style: normal;
     font-size: 2.7vw;
     margin: 0px auto 10px auto;
-    color: #b45743;
+    color: #000000
     }
 
 h2 {
@@ -89,98 +87,71 @@ h2 {
     font-style: normal;
     font-size: 1.5vw;
     line-height: 1.4;
-    color: #b45743;
+    color: #000000;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
     }
    
-#logo {
-    position: fixed;
-    top: 2%;
-    left: 0%;
-    width: 8%;
-    height: auto;
-    z-index: 3;
-    }
 
-#logobackground {
+#sidebar {
     position: fixed;
-    max-width: 105px;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
+    top: .5%;
     margin: 5px;
-    top: 3px;
     z-index: 2;
     }
+
 
 a{
     font-family: louvette-text;
     font-size: 1.5vw;
-    width: 400px;
     margin: 0 auto;
-    color: #b45743;
+    color: #98b2f4;
     text-decoration: none;
     font-weight: 100;
-    padding: 10px;
+    padding: 5px;
     }
 
 a:hover{
     color: white;
-    background: #b45743;
+    background: #98b2f4;
     }
 
 
-div.LinkedIn{
-    transform: rotate(-10deg);
-    position: fixed;
+.Work{
+    transform: rotate(-65deg);
+    position:fixed;
     max-width: 100%;
     height: auto;
-    top: 30.2%;
-    left: 45.5%;
-    bottom: auto;
-    right: auto;
+    top: 60%;
+    left: 34%;
     }
 
-div.Email{
-    transform: rotate(-24deg);
-    position: fixed;
+.LinkedIn{
+    transform: rotate(-79deg);
+    position:fixed;
     max-width: 100%;
     height: auto;
-    top: 79.3%;
-    left: 47%;
-    bottom: auto;
-    right: auto;
+    top:50%;
+    left: 43%;
     }
-        
-div.Work{
-    position: fixed;
+
+.Email{
+    transform: rotate(-85deg);
+    position:fixed;
     max-width: 100%;
     height: auto;
-    top: 48.4%;
-    left: 58%;
-    bottom: auto;
-    right: auto;
+    top:71%;
+    left: 50%;
     }
 
-#megraphic {
+#logo{
     position: fixed;
-    max-width: 22%;
+    top: 43%;
+    right: -18%;
+    width: 50%;
     height: auto;
-    bottom: -1%;
-    left: 0%;
-    top: auto;
-    right: auto;
-    z-index: 2;
-    }
-
-#duckgraphic {
-    position: fixed;
-    max-width: 17%;
-    height:auto;
-    right: 5%;
-    bottom: 15%;
-    left: auto;
-    top: auto;
-    }
-
-
+    transform: rotate(-90deg);
+}
 
