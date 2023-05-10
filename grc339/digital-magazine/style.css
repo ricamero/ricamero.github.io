@@ -1,0 +1,81 @@
+/*CSS document*/
+
+body {
+    font-family: kaneda-gothic, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+	line-height: 1.4em;
+	background-color: #f0ecd9;
+	box-sizing: border-box;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+ 
+}
+
+li{
+   display: inline;
+   padding: 0rem .75rem 0rem 0rem;
+  
+
+}
+
+a{
+    text-decoration: none;
+    color: #b27065;
+}
+
+h3,  h2{
+    font-family: kaneda-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #758cac;
+    line-height: 1.5em;
+}
+
+h4 {
+    font-family: kaneda-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #758cac;
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+
+p{
+    color: black;
+}
+
+article{
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+
+.mainstory{
+    padding-top: 3rem;
+}
+
+section{
+    padding-bottom: 3.5rem;
+}
+
+.noimage{
+    padding-bottom: 1.5rem;
+}
