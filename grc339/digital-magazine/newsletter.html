@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>The Flying Finn</title>
+        <!-- ★ Please include a proper title.-->
+        <!-- Helpful meta tags to fight GitHub aggresive caching-->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <!-- link to typeface -->
+        <link rel="stylesheet" href="https://use.typekit.net/fnt5mfz.css" />
+
+        <!--link to css-->
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div class="containerfour">
+            <header>
+                <h1>
+                    <img src="logo-1.svg" alt="Logo of The Flying Finn news publication." />
+                </h1>
+                <!-- ★ Please use a proper alt attribute.-->
+                <nav>
+                    <ul>
+                        <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Gear</a>
+                        </li>
+                        <li>
+                            <a href="#">Culture</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Archives</a>
+                        </li>
+                        <li>
+                            <a href="newsletter.html">Subscribe</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+			<form>
+				<section class="newsletter">
+					<h2>Which of our Newsletters would you like to recieve?</h2>
+					<ul>
+						<li><input type="checkbox" id="weekly-newsletter" value="weekly-newsletter"/> <label for="weekly-newsletter">Weekly Newsletter</label></li>
+						
+						<li><input type="checkbox" id="monthly-newsletter" value="monthly-newsletter"/> <label for="monthly-newsletter">Monthly Newsletter</label></li>
+						
+						<li><input type="checkbox" id="yearly-newsletter" value="yearly-newsletter"/> <label for="yearly-newsletter">Yearly Newsletter</label></li>
+					</ul>
+				</section>
+				<section class="personal-info">
+					<h2>Your information</h2>
+					<ul>
+						<li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name"/></li>
+						
+						<li><label for="email-address">Email Address:</label><input type="email" name="email-address" id="email-address" placeholder="your email address"/></li>
+					</ul>
+				</section>
+				
+				<input type="submit" class = "btn" value="Submit" id="submitButton">
+			</form>
+            
+            <aside>
+                
+            </aside>
+            <footer>
+                <p>All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>
