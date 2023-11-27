@@ -9,6 +9,37 @@ body {
 	box-sizing: border-box;
 }
 
+@media screen and (prefers-color-scheme: dark){
+	body{
+		background-color: rgb(33 33 33);
+	}
+	
+	h1{
+		background-image: url("logo-1-alt.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	h1 img {
+		opacity: 0;
+	}
+	
+ 	body h4, body p, body figcaption{
+		color: rgb(250 250 250);
+	}
+	
+	 body h3, body h2, body nav ul li a{
+		color: rgb(116 140 171);
+	}
+	
+	body a:hover{
+		color: rgb(250 250 250);
+	}
+	
+	div.containerthree div.gallery{
+		background-color: rgb(33 33 33);
+	}
+}
+
 div.container {
 	max-width: 40em;
 	margin: .5em auto;
@@ -104,6 +135,7 @@ section.secondary{
 	padding-bottom: 0em;
 }
 
+
 section.tertiary{
 	padding-bottom: 0.5em;
 	padding-top: 1em;
@@ -179,7 +211,7 @@ section.tertiary{
 }
 
 div.gallery{
-    background-color: #fafafa;
+    background-color: rgb(250 250 250);
     max-width: 60em;
     margin: 0 auto;
     padding: 1em;
@@ -189,7 +221,7 @@ div.gallery{
 main.gallery {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(75% + 2em);
+    padding-bottom: calc(75% + 8em);
 }
 
 figure.gallery{
