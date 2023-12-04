@@ -112,11 +112,16 @@ div.containerthree{
 	padding: 1em;
 }
 
+div.gallery{
+	padding-top: 1em;
+}
+
 main.gallery {
     position: relative;
     overflow: hidden;
     padding-bottom: calc(75% + 2em);
 	margin-bottom: 2em;
+	
 }
 
 figure.gallery{
@@ -146,7 +151,11 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
 input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
+input:nth-of-type(9):checked ~ main figure:nth-of-type(9),
+input:nth-of-type(10):checked ~ main figure:nth-of-type(10),
+input:nth-of-type(11):checked ~ main figure:nth-of-type(11),
+input:nth-of-type(12):checked ~ main figure:nth-of-type(12){
     opacity: 1;
 }
 
@@ -165,8 +174,6 @@ nav.gallery label img {
 input[name="item"] {
     display: none;
 }
-
-
 
 
 /*this section styles the subscription page (newsletter.html)*/
